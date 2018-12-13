@@ -12,6 +12,6 @@ using namespace std;
 
 int main() {
 
-   Parser *p=new Parser("a_example.in");
+   Parser *p=new Parser("b_short_walk.in");
 
 }

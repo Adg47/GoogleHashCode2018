@@ -6,17 +6,23 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Jeanne/CLionProjects/HashCode18/Map.h
-
-C:/Users/Jeanne/CLionProjects/HashCode18/Parser.cpp
-Map.h
-C:/Users/Jeanne/CLionProjects/HashCode18/Map.h
-Parser.h
-C:/Users/Jeanne/CLionProjects/HashCode18/Parser.h
+/home/anonymous/Téléchargements/HashCode18RealOne/Map.h
 Residence.h
-C:/Users/Jeanne/CLionProjects/HashCode18/Residence.h
+/home/anonymous/Téléchargements/HashCode18RealOne/Residence.h
 Utility.h
-C:/Users/Jeanne/CLionProjects/HashCode18/Utility.h
+/home/anonymous/Téléchargements/HashCode18RealOne/Utility.h
+vector
+-
+
+/home/anonymous/Téléchargements/HashCode18RealOne/Parser.cpp
+Map.h
+/home/anonymous/Téléchargements/HashCode18RealOne/Map.h
+Parser.h
+/home/anonymous/Téléchargements/HashCode18RealOne/Parser.h
+Residence.h
+/home/anonymous/Téléchargements/HashCode18RealOne/Residence.h
+Utility.h
+/home/anonymous/Téléchargements/HashCode18RealOne/Utility.h
 string
 -
 iostream
@@ -25,14 +31,22 @@ fstream
 -
 sstream
 -
+time.h
+-
+cmath
+-
 
-C:/Users/Jeanne/CLionProjects/HashCode18/Parser.h
+/home/anonymous/Téléchargements/HashCode18RealOne/Parser.h
 string
 -
 vector
 -
 
-C:/Users/Jeanne/CLionProjects/HashCode18/Residence.h
+/home/anonymous/Téléchargements/HashCode18RealOne/Residence.h
+vector
+-
 
-C:/Users/Jeanne/CLionProjects/HashCode18/Utility.h
+/home/anonymous/Téléchargements/HashCode18RealOne/Utility.h
+vector
+-
 

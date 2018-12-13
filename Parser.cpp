@@ -6,6 +6,9 @@
 #include <iostream>
 #include <fstream>
 #include <sstream>
+#include <time.h>
+#include <cmath>
+
 using namespace std;
 
 
@@ -21,63 +24,84 @@ vector<string> Parser::split(string str, char delimiter) {
     return internal;
 }
 
+void duree(time_t _begin, time_t _end)
+{
+    double temp;
+    double hours=0, min=0, sec=0;
+    double dureeCalc = difftime(_end, _begin);
+    temp = modf(dureeCalc/3600., &hours);
+    temp = modf(temp*60., &min);
+    temp = modf(temp*60., &sec);
+    cout<<"Duree du calcul : "<<hours<<" h "<<min<<" min "<<sec<<" sec"<<endl;
+}
+void Parser::deleteTab(int **tab,const int xSize){
+    for (int i = 0; i < xSize; i++) {
+        delete[] tab[i];
+    }
+    delete[] tab;
+}
+
 Parser::Parser(string namefile)
 {
-
+    time_t deb =time(NULL);
     this->namefile=namefile;
     string line;
     ifstream myfile(namefile);
-    std::string::size_type sz;
+    string::size_type sz;
+    vector<string> sep,sepTamp;
+
+    //Si le fichier est ouvert
     if (myfile.is_open())
     {
+        //On recupère la première ligne et on la traite
         getline(myfile,line);
-        vector<string> sep = split(line, ' ');
-        Map *map = new Map(std::stoi (sep[0],&sz),std::stoi (sep[1],&sz),std::stoi (sep[2],&sz),std::stoi (sep[3],&sz));
-        for(int i = 0; i < sep.size(); ++i)
+        int  CPT = 0;
+        bool isResidence = false;
+        //On split les caractères avec comme delimiteur " "
+        sep = split(line, ' ');
+        Map *map = new Map(stoi(sep[0],&sz),stoi(sep[1],&sz),stoi(sep[2],&sz),stoi(sep[3],&sz));
+        while(getline(myfile,line)){
+            sep = split(line, ' ');
+            sepTamp = split(line,' ');
+            int nbLine = stoi(sep[1]);
+            vector <vector<int> > mymap(stoi(sep[1],&sz),vector<int>(stoi(sep[2],&sz),0));
 
-            while ( getline (myfile,line) )
-            {
-                vector<string> sep = split(line, ' ');
-                if(sep[0] == "R"){
-                    Residence *res = new Residence(std::stoi (sep[3],&sz),std::stoi (sep[1],&sz),std::stoi (sep[2],&sz));
-                    int **tab;
-                    tab = new int*[std::stoi (sep[1],&sz)];
-                    for(int i = 0; i < std::stoi (sep[1],&sz); i++){
-                        getline (myfile,line);
-                        tab[i] = new int(std::stoi (sep[2],&sz));
-                        int cpt = 0;
-                        for(char& c : line) {
-                            if(c == '#'){
-                                tab[i][cpt] = 1;
-                            } else {
-                                tab[i][cpt] = 0;
-                            }
-                            cpt++;
-                        }
+            const char* charLine;
+            for(int i =0; i < stoi(sep[1],&sz);i++){
+                int cpt=0;
+                getline(myfile,line);
+                //charLine = line.c_str();
+                for(char& c : line){
+                    if (c == '#'){
+                        mymap[i][cpt] = 1;
                     }
-                    res->plan = tab;
-                } else {
-                    Utility *uti = new Utility(std::stoi (sep[3],&sz),std::stoi (sep[1],&sz),std::stoi (sep[2],&sz));
-                    int **tab;
-                    tab = new int*[std::stoi (sep[1],&sz)];
-                    for(int i = 0; i < std::stoi (sep[1],&sz); i++){
-                        getline (myfile,line);
-                        tab[i] = new int(std::stoi (sep[2],&sz));
-                        int cpt = 0;
-                        for(char& c : line) {
-                            if(c == '#'){
-                                tab[i][cpt] = 1;
-                            } else {
-                                tab[i][cpt] = 0;
-                            }
-                            cpt++;
-                        }
-                    }
-                    uti->plan = tab;
-
+                    cpt++;
                 }
             }
+
+            switch(*sep[0].c_str()){
+                case 'R':
+                    Residence *residence;
+                    residence = new Residence(stoi(sep[3], &sz), stoi(sep[1], &sz), stoi(sep[2], &sz),mymap);
+                    map->listeResidences.push_back(*residence);
+                    break;
+                case 'U':
+                    Utility *utility = new Utility(stoi(sep[3],&sz),stoi(sep[1],&sz),stoi(sep[2],&sz),mymap);
+                    map->listeUtility.push_back(*utility);
+                    break;
+            }
+            for(auto vec : mymap)
+            {
+                for(auto x : vec)
+                    std::cout<<x<<", ";
+                std::cout << std::endl;
+            }
+            mymap.clear();
+        }
+        map->listeUtility.at(2).sizeX = 12;
         myfile.close();
+        time_t end = time(NULL);
+        duree(deb,end);
     }
     else cout << "Unable to open file";
 

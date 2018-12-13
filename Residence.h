@@ -5,15 +5,18 @@
 
 //Une résidence est représentée par un nombre d'habitants max , d'une dimension X et Y ainsi que d'une matrice à deux dimensions explicitant le plan exact de celle ci
 
+#include <vector>
+
 class Residence {
 public:
-    Residence(int capacite,int x,int y,int **matr);
+    Residence(int capacite,int x,int y,std::vector<std::vector<int> > matr);
     Residence(int capacite, int x, int y);
+    //~Residence();
 
-        int capacity;
+    int capacity;
     int sizeX;
     int sizeY;
-    int **plan;
+    std::vector<std::vector<int> > plan;
 };
 
 

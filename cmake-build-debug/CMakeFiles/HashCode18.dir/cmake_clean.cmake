@@ -1,14 +1,12 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/HashCode18.dir/main.cpp.obj"
-  "CMakeFiles/HashCode18.dir/Cell.cpp.obj"
-  "CMakeFiles/HashCode18.dir/Utility.cpp.obj"
-  "CMakeFiles/HashCode18.dir/Residence.cpp.obj"
-  "CMakeFiles/HashCode18.dir/Map.cpp.obj"
-  "CMakeFiles/HashCode18.dir/Parser.cpp.obj"
+  "CMakeFiles/HashCode18.dir/main.cpp.o"
+  "CMakeFiles/HashCode18.dir/Cell.cpp.o"
+  "CMakeFiles/HashCode18.dir/Utility.cpp.o"
+  "CMakeFiles/HashCode18.dir/Residence.cpp.o"
+  "CMakeFiles/HashCode18.dir/Map.cpp.o"
+  "CMakeFiles/HashCode18.dir/Parser.cpp.o"
   "HashCode18.pdb"
-  "HashCode18.exe"
-  "HashCode18.exe.manifest"
-  "libHashCode18.dll.a"
+  "HashCode18"
 )
 
 # Per-language clean rules from dependency scanning.
