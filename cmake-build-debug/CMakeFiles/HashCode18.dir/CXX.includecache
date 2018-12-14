@@ -6,47 +6,83 @@
 
 #IncludeRegexTransform: 
 
-/home/anonymous/Téléchargements/HashCode18RealOne/Map.h
-Residence.h
-/home/anonymous/Téléchargements/HashCode18RealOne/Residence.h
-Utility.h
-/home/anonymous/Téléchargements/HashCode18RealOne/Utility.h
+/home/anonymous/Documents/googlehashcode (3)/Batiment.h
 vector
 -
 
-/home/anonymous/Téléchargements/HashCode18RealOne/Parser.cpp
-Map.h
-/home/anonymous/Téléchargements/HashCode18RealOne/Map.h
-Parser.h
-/home/anonymous/Téléchargements/HashCode18RealOne/Parser.h
+/home/anonymous/Documents/googlehashcode (3)/Cell.h
+
+/home/anonymous/Documents/googlehashcode (3)/Map.h
 Residence.h
-/home/anonymous/Téléchargements/HashCode18RealOne/Residence.h
+/home/anonymous/Documents/googlehashcode (3)/Residence.h
 Utility.h
-/home/anonymous/Téléchargements/HashCode18RealOne/Utility.h
+/home/anonymous/Documents/googlehashcode (3)/Utility.h
+Cell.h
+/home/anonymous/Documents/googlehashcode (3)/Cell.h
+vector
+-
+
+/home/anonymous/Documents/googlehashcode (3)/Parser.h
 string
 -
+vector
+-
+Map.h
+/home/anonymous/Documents/googlehashcode (3)/Map.h
+
+/home/anonymous/Documents/googlehashcode (3)/ParserOut.h
+string
+-
+vector
+-
+Map.h
+/home/anonymous/Documents/googlehashcode (3)/Map.h
+
+/home/anonymous/Documents/googlehashcode (3)/Residence.h
+vector
+-
+Batiment.h
+/home/anonymous/Documents/googlehashcode (3)/Batiment.h
+
+/home/anonymous/Documents/googlehashcode (3)/Utility.h
+vector
+-
+Batiment.h
+/home/anonymous/Documents/googlehashcode (3)/Batiment.h
+
+/home/anonymous/Documents/googlehashcode (3)/main.cpp
 iostream
 -
 fstream
 -
-sstream
+Residence.h
+/home/anonymous/Documents/googlehashcode (3)/Residence.h
+Map.h
+/home/anonymous/Documents/googlehashcode (3)/Map.h
+Cell.h
+/home/anonymous/Documents/googlehashcode (3)/Cell.h
+Utility.h
+/home/anonymous/Documents/googlehashcode (3)/Utility.h
+string.h
+-
+vector
+-
+Parser.h
+/home/anonymous/Documents/googlehashcode (3)/Parser.h
+ParserOut.h
+/home/anonymous/Documents/googlehashcode (3)/ParserOut.h
+string
+-
+iostream
+-
+experimental/filesystem
+-
+time.h
+-
+stdio.h
 -
 time.h
 -
 cmath
--
-
-/home/anonymous/Téléchargements/HashCode18RealOne/Parser.h
-string
--
-vector
--
-
-/home/anonymous/Téléchargements/HashCode18RealOne/Residence.h
-vector
--
-
-/home/anonymous/Téléchargements/HashCode18RealOne/Utility.h
-vector
 -
 

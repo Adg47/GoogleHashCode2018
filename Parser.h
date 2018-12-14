@@ -5,15 +5,15 @@
 
 #include <string>
 #include <vector>
+#include "Map.h"
 using namespace std;
 class Parser {
 
 public:
     Parser(string name);
-    void deleteTab(int **tab,int sizeX);
     vector<string> split(string str, char delimiter);
 
-        string namefile;
+    Map *map;
 
 };
 

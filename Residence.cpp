@@ -8,13 +8,17 @@ Residence::Residence(int capacite,int x, int y,std::vector<std::vector<int> > ma
     this->sizeX=x;
     this->sizeY=y;
     this->plan=matr;
+    this->type=-4;
 }
 Residence::Residence(int capacite, int x, int y) {
     this->capacity = capacite;
     this->sizeX = x;
     this->sizeY = y;
+    this->type=-4;
 }
-
+int Residence::returnType() const{
+    return this->type;
+}
 /*Residence::~Residence() {
     for (int i = 0; i < this->sizeX; i++) {
         delete[] this->plan[i];

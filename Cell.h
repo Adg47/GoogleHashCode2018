@@ -7,10 +7,12 @@
 
 class Cell {
 public:
-    Cell(const int x,const int y);
+    Cell(const int x,const int y,int value);
     int x;
     int y;
+    int value;
     bool isOccupied;
+
 };
 
 

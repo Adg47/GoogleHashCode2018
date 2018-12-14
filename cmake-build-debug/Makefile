@@ -48,10 +48,10 @@ RM = /home/anonymous/Téléchargements/clion-2018.2.5/bin/cmake/linux/bin/cmake 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/anonymous/Téléchargements/HashCode18RealOne
+CMAKE_SOURCE_DIR = "/home/anonymous/Documents/googlehashcode (3)"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/anonymous/Téléchargements/HashCode18RealOne/cmake-build-debug
+CMAKE_BINARY_DIR = "/home/anonymous/Documents/googlehashcode (3)/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anonymous/Téléchargements/HashCode18RealOne/cmake-build-debug/CMakeFiles /home/anonymous/Téléchargements/HashCode18RealOne/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/anonymous/Documents/googlehashcode (3)/cmake-build-debug/CMakeFiles" "/home/anonymous/Documents/googlehashcode (3)/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anonymous/Téléchargements/HashCode18RealOne/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/anonymous/Documents/googlehashcode (3)/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -122,6 +122,33 @@ HashCode18: cmake_check_build_system
 HashCode18/fast:
 	$(MAKE) -f CMakeFiles/HashCode18.dir/build.make CMakeFiles/HashCode18.dir/build
 .PHONY : HashCode18/fast
+
+Batiment.o: Batiment.cpp.o
+
+.PHONY : Batiment.o
+
+# target to build an object file
+Batiment.cpp.o:
+	$(MAKE) -f CMakeFiles/HashCode18.dir/build.make CMakeFiles/HashCode18.dir/Batiment.cpp.o
+.PHONY : Batiment.cpp.o
+
+Batiment.i: Batiment.cpp.i
+
+.PHONY : Batiment.i
+
+# target to preprocess a source file
+Batiment.cpp.i:
+	$(MAKE) -f CMakeFiles/HashCode18.dir/build.make CMakeFiles/HashCode18.dir/Batiment.cpp.i
+.PHONY : Batiment.cpp.i
+
+Batiment.s: Batiment.cpp.s
+
+.PHONY : Batiment.s
+
+# target to generate assembly for a file
+Batiment.cpp.s:
+	$(MAKE) -f CMakeFiles/HashCode18.dir/build.make CMakeFiles/HashCode18.dir/Batiment.cpp.s
+.PHONY : Batiment.cpp.s
 
 Cell.o: Cell.cpp.o
 
@@ -203,6 +230,33 @@ Parser.s: Parser.cpp.s
 Parser.cpp.s:
 	$(MAKE) -f CMakeFiles/HashCode18.dir/build.make CMakeFiles/HashCode18.dir/Parser.cpp.s
 .PHONY : Parser.cpp.s
+
+ParserOut.o: ParserOut.cpp.o
+
+.PHONY : ParserOut.o
+
+# target to build an object file
+ParserOut.cpp.o:
+	$(MAKE) -f CMakeFiles/HashCode18.dir/build.make CMakeFiles/HashCode18.dir/ParserOut.cpp.o
+.PHONY : ParserOut.cpp.o
+
+ParserOut.i: ParserOut.cpp.i
+
+.PHONY : ParserOut.i
+
+# target to preprocess a source file
+ParserOut.cpp.i:
+	$(MAKE) -f CMakeFiles/HashCode18.dir/build.make CMakeFiles/HashCode18.dir/ParserOut.cpp.i
+.PHONY : ParserOut.cpp.i
+
+ParserOut.s: ParserOut.cpp.s
+
+.PHONY : ParserOut.s
+
+# target to generate assembly for a file
+ParserOut.cpp.s:
+	$(MAKE) -f CMakeFiles/HashCode18.dir/build.make CMakeFiles/HashCode18.dir/ParserOut.cpp.s
+.PHONY : ParserOut.cpp.s
 
 Residence.o: Residence.cpp.o
 
@@ -294,6 +348,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... HashCode18"
+	@echo "... Batiment.o"
+	@echo "... Batiment.i"
+	@echo "... Batiment.s"
 	@echo "... Cell.o"
 	@echo "... Cell.i"
 	@echo "... Cell.s"
@@ -303,6 +360,9 @@ help:
 	@echo "... Parser.o"
 	@echo "... Parser.i"
 	@echo "... Parser.s"
+	@echo "... ParserOut.o"
+	@echo "... ParserOut.i"
+	@echo "... ParserOut.s"
 	@echo "... Residence.o"
 	@echo "... Residence.i"
 	@echo "... Residence.s"

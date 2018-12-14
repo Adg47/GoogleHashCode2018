@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/anonymous/Téléchargements/HashCode18RealOne/cmake-build-debug"/>
+				<Option working_dir="/home/anonymous/Documents/googlehashcode (3)/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/anonymous/Téléchargements/HashCode18RealOne/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anonymous/Téléchargements/HashCode18RealOne/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/anonymous/Téléchargements/HashCode18RealOne/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anonymous/Téléchargements/HashCode18RealOne/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anonymous/Documents/googlehashcode\ (3)/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anonymous/Documents/googlehashcode\ (3)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anonymous/Documents/googlehashcode\ (3)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anonymous/Documents/googlehashcode\ (3)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/anonymous/Téléchargements/HashCode18RealOne/cmake-build-debug"/>
+				<Option working_dir="/home/anonymous/Documents/googlehashcode (3)/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/anonymous/Téléchargements/HashCode18RealOne/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anonymous/Téléchargements/HashCode18RealOne/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/anonymous/Téléchargements/HashCode18RealOne/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anonymous/Téléchargements/HashCode18RealOne/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anonymous/Documents/googlehashcode\ (3)/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anonymous/Documents/googlehashcode\ (3)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anonymous/Documents/googlehashcode\ (3)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anonymous/Documents/googlehashcode\ (3)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/anonymous/Téléchargements/HashCode18RealOne/cmake-build-debug"/>
+				<Option working_dir="/home/anonymous/Documents/googlehashcode (3)/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/anonymous/Téléchargements/HashCode18RealOne/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anonymous/Téléchargements/HashCode18RealOne/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/anonymous/Téléchargements/HashCode18RealOne/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anonymous/Téléchargements/HashCode18RealOne/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anonymous/Documents/googlehashcode\ (3)/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anonymous/Documents/googlehashcode\ (3)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anonymous/Documents/googlehashcode\ (3)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anonymous/Documents/googlehashcode\ (3)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="HashCode18">
-				<Option output="/home/anonymous/Téléchargements/HashCode18RealOne/cmake-build-debug/HashCode18" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/anonymous/Téléchargements/HashCode18RealOne/cmake-build-debug"/>
+				<Option output="/home/anonymous/Documents/googlehashcode (3)/cmake-build-debug/HashCode18" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anonymous/Documents/googlehashcode (3)/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -54,15 +54,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/anonymous/Téléchargements/HashCode18RealOne/cmake-build-debug/Makefile&quot;  VERBOSE=1 HashCode18"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anonymous/Téléchargements/HashCode18RealOne/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/anonymous/Téléchargements/HashCode18RealOne/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anonymous/Téléchargements/HashCode18RealOne/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anonymous/Documents/googlehashcode\ (3)/cmake-build-debug/Makefile&quot;  VERBOSE=1 HashCode18"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anonymous/Documents/googlehashcode\ (3)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anonymous/Documents/googlehashcode\ (3)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anonymous/Documents/googlehashcode\ (3)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="HashCode18/fast">
-				<Option output="/home/anonymous/Téléchargements/HashCode18RealOne/cmake-build-debug/HashCode18" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/anonymous/Téléchargements/HashCode18RealOne/cmake-build-debug"/>
+				<Option output="/home/anonymous/Documents/googlehashcode (3)/cmake-build-debug/HashCode18" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anonymous/Documents/googlehashcode (3)/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -77,47 +77,59 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/anonymous/Téléchargements/HashCode18RealOne/cmake-build-debug/Makefile&quot;  VERBOSE=1 HashCode18/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anonymous/Téléchargements/HashCode18RealOne/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/anonymous/Téléchargements/HashCode18RealOne/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anonymous/Téléchargements/HashCode18RealOne/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anonymous/Documents/googlehashcode\ (3)/cmake-build-debug/Makefile&quot;  VERBOSE=1 HashCode18/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anonymous/Documents/googlehashcode\ (3)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anonymous/Documents/googlehashcode\ (3)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anonymous/Documents/googlehashcode\ (3)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/anonymous/Téléchargements/HashCode18RealOne/Cell.cpp">
+		<Unit filename="/home/anonymous/Documents/googlehashcode (3)/Batiment.cpp">
 			<Option target="HashCode18"/>
 		</Unit>
-		<Unit filename="/home/anonymous/Téléchargements/HashCode18RealOne/Cell.h">
+		<Unit filename="/home/anonymous/Documents/googlehashcode (3)/Batiment.h">
 			<Option target="HashCode18"/>
 		</Unit>
-		<Unit filename="/home/anonymous/Téléchargements/HashCode18RealOne/Map.cpp">
+		<Unit filename="/home/anonymous/Documents/googlehashcode (3)/Cell.cpp">
 			<Option target="HashCode18"/>
 		</Unit>
-		<Unit filename="/home/anonymous/Téléchargements/HashCode18RealOne/Map.h">
+		<Unit filename="/home/anonymous/Documents/googlehashcode (3)/Cell.h">
 			<Option target="HashCode18"/>
 		</Unit>
-		<Unit filename="/home/anonymous/Téléchargements/HashCode18RealOne/Parser.cpp">
+		<Unit filename="/home/anonymous/Documents/googlehashcode (3)/Map.cpp">
 			<Option target="HashCode18"/>
 		</Unit>
-		<Unit filename="/home/anonymous/Téléchargements/HashCode18RealOne/Parser.h">
+		<Unit filename="/home/anonymous/Documents/googlehashcode (3)/Map.h">
 			<Option target="HashCode18"/>
 		</Unit>
-		<Unit filename="/home/anonymous/Téléchargements/HashCode18RealOne/Residence.cpp">
+		<Unit filename="/home/anonymous/Documents/googlehashcode (3)/Parser.cpp">
 			<Option target="HashCode18"/>
 		</Unit>
-		<Unit filename="/home/anonymous/Téléchargements/HashCode18RealOne/Residence.h">
+		<Unit filename="/home/anonymous/Documents/googlehashcode (3)/Parser.h">
 			<Option target="HashCode18"/>
 		</Unit>
-		<Unit filename="/home/anonymous/Téléchargements/HashCode18RealOne/Utility.cpp">
+		<Unit filename="/home/anonymous/Documents/googlehashcode (3)/ParserOut.cpp">
 			<Option target="HashCode18"/>
 		</Unit>
-		<Unit filename="/home/anonymous/Téléchargements/HashCode18RealOne/Utility.h">
+		<Unit filename="/home/anonymous/Documents/googlehashcode (3)/ParserOut.h">
 			<Option target="HashCode18"/>
 		</Unit>
-		<Unit filename="/home/anonymous/Téléchargements/HashCode18RealOne/main.cpp">
+		<Unit filename="/home/anonymous/Documents/googlehashcode (3)/Residence.cpp">
 			<Option target="HashCode18"/>
 		</Unit>
-		<Unit filename="/home/anonymous/Téléchargements/HashCode18RealOne/CMakeLists.txt">
+		<Unit filename="/home/anonymous/Documents/googlehashcode (3)/Residence.h">
+			<Option target="HashCode18"/>
+		</Unit>
+		<Unit filename="/home/anonymous/Documents/googlehashcode (3)/Utility.cpp">
+			<Option target="HashCode18"/>
+		</Unit>
+		<Unit filename="/home/anonymous/Documents/googlehashcode (3)/Utility.h">
+			<Option target="HashCode18"/>
+		</Unit>
+		<Unit filename="/home/anonymous/Documents/googlehashcode (3)/main.cpp">
+			<Option target="HashCode18"/>
+		</Unit>
+		<Unit filename="/home/anonymous/Documents/googlehashcode (3)/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

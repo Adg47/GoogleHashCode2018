@@ -4,7 +4,7 @@
 
 Utility::Utility(int type,int x,int y,std::vector<std::vector<int> > matr)
 {
-    this->typeUtil=type;
+    this->type=type;
     this->sizeX=x;
     this->sizeY=y;
     this->plan=matr;
@@ -12,9 +12,11 @@ Utility::Utility(int type,int x,int y,std::vector<std::vector<int> > matr)
 Utility::Utility(int type, int x, int y) {
     this->sizeY=y;
     this->sizeX=x;
-    this->typeUtil=type;
+    this->type=type;
 }
-
+int Utility::returnType() const{
+    return this->type;
+}
 /*Utility::~Utility() {
     for (int i = 0; i < this->sizeX; i++) {
         delete[] this->plan[i];

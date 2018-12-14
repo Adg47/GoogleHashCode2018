@@ -9,4 +9,7 @@ Map::Map(int x,int y,int dist,int nbrBat)
     this->sizeY=y;
     this->distMax=dist;
     this->nbrBuild=nbrBat;
+
+    this->tabCell.assign(x,std::vector<int>(y,-1));
+
 }

@@ -34,17 +34,10 @@ void duree(time_t _begin, time_t _end)
     temp = modf(temp*60., &sec);
     cout<<"Duree du calcul : "<<hours<<" h "<<min<<" min "<<sec<<" sec"<<endl;
 }
-void Parser::deleteTab(int **tab,const int xSize){
-    for (int i = 0; i < xSize; i++) {
-        delete[] tab[i];
-    }
-    delete[] tab;
-}
 
 Parser::Parser(string namefile)
 {
     time_t deb =time(NULL);
-    this->namefile=namefile;
     string line;
     ifstream myfile(namefile);
     string::size_type sz;
@@ -59,7 +52,7 @@ Parser::Parser(string namefile)
         bool isResidence = false;
         //On split les caractères avec comme delimiteur " "
         sep = split(line, ' ');
-        Map *map = new Map(stoi(sep[0],&sz),stoi(sep[1],&sz),stoi(sep[2],&sz),stoi(sep[3],&sz));
+        this->map = new Map(stoi(sep[0],&sz),stoi(sep[1],&sz),stoi(sep[2],&sz),stoi(sep[3],&sz));
         while(getline(myfile,line)){
             sep = split(line, ' ');
             sepTamp = split(line,' ');
@@ -81,25 +74,24 @@ Parser::Parser(string namefile)
 
             switch(*sep[0].c_str()){
                 case 'R':
-                    Residence *residence;
+                    Batiment *residence;
                     residence = new Residence(stoi(sep[3], &sz), stoi(sep[1], &sz), stoi(sep[2], &sz),mymap);
-                    map->listeResidences.push_back(*residence);
+                    //map->listeResidences.push_back(*residence);
+                    map->listeBatiments.push_back(residence);
                     break;
                 case 'U':
-                    Utility *utility = new Utility(stoi(sep[3],&sz),stoi(sep[1],&sz),stoi(sep[2],&sz),mymap);
-                    map->listeUtility.push_back(*utility);
+                    Batiment *utility = new Utility(stoi(sep[3],&sz),stoi(sep[1],&sz),stoi(sep[2],&sz),mymap);
+                    map->listeBatiments.push_back(utility);
+                    //map->listeUtility.push_back(*utility);
                     break;
             }
-            for(auto vec : mymap)
-            {
-                for(auto x : vec)
-                    std::cout<<x<<", ";
-                std::cout << std::endl;
-            }
+
+
             mymap.clear();
         }
-        map->listeUtility.at(2).sizeX = 12;
+
         myfile.close();
+
         time_t end = time(NULL);
         duree(deb,end);
     }

@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/HashCode18.dir/Residence.cpp.o"
   "CMakeFiles/HashCode18.dir/Map.cpp.o"
   "CMakeFiles/HashCode18.dir/Parser.cpp.o"
+  "CMakeFiles/HashCode18.dir/ParserOut.cpp.o"
+  "CMakeFiles/HashCode18.dir/Batiment.cpp.o"
   "HashCode18.pdb"
   "HashCode18"
 )
