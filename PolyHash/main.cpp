@@ -31,11 +31,11 @@ int main() {
 
 	//Ici tu change le nom de la map contenu dans le "Fichier de Ressources"
 	// ensuite tu vas dans Placement.cpp à la fonction placerBatiment
-   Parser *p=new Parser("a_example.in");
+   Parser *p=new Parser("e_precise_fit.in");
 
    //ParserOut *po = new ParserOut("PolyPlayer_a_example.txt",p->map);
  //  cout << "test" <<endl;
-   Placement *pl = new Placement(p->map, p->map->nbResidence);
+   Placement *pl = new Placement(p->map, p->map->nbResidence,4);
    cout << pl->getMaxCapacite()->capacity << endl;
    int i = 1.5;
    cout << i;

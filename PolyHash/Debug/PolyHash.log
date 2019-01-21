@@ -1,11 +1,14 @@
-﻿  Placement.cpp
-c:\users\sseb\downloads\polyhashhh\polyhash\polyhash\placement.cpp(19): warning C4018: '<' : incompatibilité signed/unsigned
-c:\users\sseb\downloads\polyhashhh\polyhash\polyhash\placement.cpp(29): warning C4018: '<' : incompatibilité signed/unsigned
-c:\users\sseb\downloads\polyhashhh\polyhash\polyhash\placement.cpp(48): warning C4018: '<' : incompatibilité signed/unsigned
-c:\users\sseb\downloads\polyhashhh\polyhash\polyhash\placement.cpp(98): warning C4018: '<' : incompatibilité signed/unsigned
-c:\users\sseb\downloads\polyhashhh\polyhash\polyhash\placement.cpp(117): warning C4018: '<' : incompatibilité signed/unsigned
-c:\users\sseb\downloads\polyhashhh\polyhash\polyhash\placement.cpp(155): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
-c:\users\sseb\downloads\polyhashhh\polyhash\polyhash\placement.cpp(165): warning C4244: '*=' : conversion de 'double' en 'int', perte possible de données
-c:\users\sseb\downloads\polyhashhh\polyhash\polyhash\placement.cpp(169): warning C4244: '*=' : conversion de 'double' en 'int', perte possible de données
+﻿  main.cpp
+c:\users\sseb\downloads\polyhashhh\polyhash\polyhash\main.cpp(40): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
+  Placement.cpp
+c:\users\sseb\downloads\polyhashhh\polyhash\polyhash\placement.cpp(250): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\sseb\downloads\polyhashhh\polyhash\polyhash\placement.cpp(260): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\sseb\downloads\polyhashhh\polyhash\polyhash\placement.cpp(281): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\sseb\downloads\polyhashhh\polyhash\polyhash\placement.cpp(352): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\sseb\downloads\polyhashhh\polyhash\polyhash\placement.cpp(371): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\sseb\downloads\polyhashhh\polyhash\polyhash\placement.cpp(388): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
+c:\users\sseb\downloads\polyhashhh\polyhash\polyhash\placement.cpp(426): warning C4244: '*=' : conversion de 'double' en 'int', perte possible de données
+c:\users\sseb\downloads\polyhashhh\polyhash\polyhash\placement.cpp(430): warning C4244: '*=' : conversion de 'double' en 'int', perte possible de données
+  Génération de code en cours...
   PolyHash.vcxproj -> C:\Users\SSeb\Downloads\PolyHashhh\PolyHash\Debug\PolyHash.exe
   PolyHash.vcxproj -> C:\Users\SSeb\Downloads\PolyHashhh\PolyHash\Debug\PolyHash.pdb (Partial PDB)
