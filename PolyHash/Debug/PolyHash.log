@@ -1,14 +1,24 @@
-﻿  main.cpp
-c:\users\sseb\downloads\polyhashhh\polyhash\polyhash\main.cpp(40): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
+﻿  Utility.cpp
+  Residence.cpp
   Placement.cpp
-c:\users\sseb\downloads\polyhashhh\polyhash\polyhash\placement.cpp(250): warning C4018: '<' : incompatibilité signed/unsigned
-c:\users\sseb\downloads\polyhashhh\polyhash\polyhash\placement.cpp(260): warning C4018: '<' : incompatibilité signed/unsigned
-c:\users\sseb\downloads\polyhashhh\polyhash\polyhash\placement.cpp(281): warning C4018: '<' : incompatibilité signed/unsigned
-c:\users\sseb\downloads\polyhashhh\polyhash\polyhash\placement.cpp(352): warning C4018: '<' : incompatibilité signed/unsigned
-c:\users\sseb\downloads\polyhashhh\polyhash\polyhash\placement.cpp(371): warning C4018: '<' : incompatibilité signed/unsigned
-c:\users\sseb\downloads\polyhashhh\polyhash\polyhash\placement.cpp(388): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
-c:\users\sseb\downloads\polyhashhh\polyhash\polyhash\placement.cpp(426): warning C4244: '*=' : conversion de 'double' en 'int', perte possible de données
-c:\users\sseb\downloads\polyhashhh\polyhash\polyhash\placement.cpp(430): warning C4244: '*=' : conversion de 'double' en 'int', perte possible de données
+c:\users\sseb\downloads\polyhashv2\googlehashcode\polyhash\placement.cpp(250): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\sseb\downloads\polyhashv2\googlehashcode\polyhash\placement.cpp(260): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\sseb\downloads\polyhashv2\googlehashcode\polyhash\placement.cpp(281): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\sseb\downloads\polyhashv2\googlehashcode\polyhash\placement.cpp(352): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\sseb\downloads\polyhashv2\googlehashcode\polyhash\placement.cpp(371): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\sseb\downloads\polyhashv2\googlehashcode\polyhash\placement.cpp(388): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
+c:\users\sseb\downloads\polyhashv2\googlehashcode\polyhash\placement.cpp(426): warning C4244: '*=' : conversion de 'double' en 'int', perte possible de données
+c:\users\sseb\downloads\polyhashv2\googlehashcode\polyhash\placement.cpp(430): warning C4244: '*=' : conversion de 'double' en 'int', perte possible de données
+  ParserOut.cpp
+c:\users\sseb\downloads\polyhashv2\googlehashcode\polyhash\parserout.cpp(35): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\sseb\downloads\polyhashv2\googlehashcode\polyhash\parserout.cpp(41): warning C4018: '<' : incompatibilité signed/unsigned
+  Parser.cpp
+c:\users\sseb\downloads\polyhashv2\googlehashcode\polyhash\parser.cpp(62): warning C4101: 'charLine' : variable locale non référencée
+  Map.cpp
+  main.cpp
+c:\users\sseb\downloads\polyhashv2\googlehashcode\polyhash\main.cpp(40): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
+  Cell.cpp
+  Batiment.cpp
   Génération de code en cours...
-  PolyHash.vcxproj -> C:\Users\SSeb\Downloads\PolyHashhh\PolyHash\Debug\PolyHash.exe
-  PolyHash.vcxproj -> C:\Users\SSeb\Downloads\PolyHashhh\PolyHash\Debug\PolyHash.pdb (Partial PDB)
+  PolyHash.vcxproj -> C:\Users\SSeb\Downloads\PolyhashV2\googlehashcode\Debug\PolyHash.exe
+  PolyHash.vcxproj -> C:\Users\SSeb\Downloads\PolyhashV2\googlehashcode\Debug\PolyHash.pdb (Partial PDB)

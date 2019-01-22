@@ -31,7 +31,7 @@ int main() {
 
 	//Ici tu change le nom de la map contenu dans le "Fichier de Ressources"
 	// ensuite tu vas dans Placement.cpp à la fonction placerBatiment
-   Parser *p=new Parser("e_precise_fit.in");
+   Parser *p=new Parser("f_different_footprints.in");
 
    //ParserOut *po = new ParserOut("PolyPlayer_a_example.txt",p->map);
  //  cout << "test" <<endl;

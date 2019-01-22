@@ -235,7 +235,7 @@ bool Placement::isOkForPlacement(Batiment * batiment, int posX, int posY)
 #include "Map.h"
 #include <fstream>
 
-ofstream OutFile("e_precise_fit.out");
+ofstream OutFile("f_different_footprints.out");
 int nbBatimentPose = 0;
 
 Placement::Placement(Map *map, int nbResidence, int nbDivision)
@@ -469,9 +469,9 @@ vector<Batiment*> Placement::placerBatiment()
 
 		//Tout en haut du fichier tu changes le test.out avec le nom de la map .out
 		//Puis juste en dessous de cette ligne, tu changes le test.out en le nomdelamap.out
-		ifstream fichier("e_precise_fit.out");
+		ifstream fichier("f_different_footprints.out");
 		//et ici tu changes en nom de la mapV2.out !
-		ofstream flux("e_precise_fitV2.out");
+		ofstream flux("f_different_footprintsV2.out");
 
 		string ligne;
 		flux << nbBatimentPose << endl;
