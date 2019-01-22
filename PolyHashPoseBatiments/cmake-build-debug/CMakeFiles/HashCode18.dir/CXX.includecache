@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Jeanne/CLionProjects/HashCode18/Map.h
+
+C:/Users/Jeanne/CLionProjects/HashCode18/Parser.cpp
+Map.h
+C:/Users/Jeanne/CLionProjects/HashCode18/Map.h
+Parser.h
+C:/Users/Jeanne/CLionProjects/HashCode18/Parser.h
+Residence.h
+C:/Users/Jeanne/CLionProjects/HashCode18/Residence.h
+Utility.h
+C:/Users/Jeanne/CLionProjects/HashCode18/Utility.h
+string
+-
+iostream
+-
+fstream
+-
+sstream
+-
+
+C:/Users/Jeanne/CLionProjects/HashCode18/Parser.h
+string
+-
+vector
+-
+
+C:/Users/Jeanne/CLionProjects/HashCode18/Residence.h
+
+C:/Users/Jeanne/CLionProjects/HashCode18/Utility.h
+

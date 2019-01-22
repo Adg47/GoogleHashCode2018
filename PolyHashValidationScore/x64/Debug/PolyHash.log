@@ -1,0 +1,3 @@
+﻿  main.cpp
+c:\users\e177648w\downloads\polyhash\polyhash\main.cpp(74): warning C4554: '<<' : vérifiez si la priorité des opérateurs n'est pas une cause possible d'erreur ; utilisez des parenthèses pour rendre les priorités plus claires
+  PolyHash.vcxproj -> C:\Users\E177648W\Downloads\PolyHash\x64\Debug\PolyHash.exe
